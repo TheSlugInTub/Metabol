@@ -79,7 +79,7 @@ int csECS_EntityCount(csSceneHandle scene)
 csEntityID csECS_AddEntity(csSceneHandle scene)
 {
     if (!scene)
-        return SM_ECS_INVALID_ENTITY;
+        return CS_ECS_INVALID_ENTITY;
     return scene->cppScene.AddEntity();
 }
 
@@ -95,7 +95,7 @@ csEntityID csECS_CloneEntity(csSceneHandle scene,
                              csEntityID    sourceEntity)
 {
     if (!scene || !IsEntityValid(sourceEntity))
-        return SM_ECS_INVALID_ENTITY;
+        return CS_ECS_INVALID_ENTITY;
     return scene->cppScene.CloneEntity(sourceEntity);
 }
 
@@ -181,26 +181,20 @@ void* csECS_AssignComponent(csSceneHandle scene, csEntityID entity,
 void* csECS_GetComponent(csSceneHandle scene, csEntityID entity,
                          csComponentTypeID componentTypeId)
 {
-
-#ifdef SM_DEBUG_LEVEL_1
     if (!scene || !IsEntityValid(entity))
         return NULL;
-#endif
     
     auto it = scene->componentTypeMap.find(componentTypeId);
 
-#ifdef SM_DEBUG_LEVEL_1
     if (it == scene->componentTypeMap.end())
     {
         return NULL; // Component type not registered
     }
-#endif
 
     int         internalId = it->second;
     Scene*      pScene = &scene->cppScene;
     EntityIndex entityIndex = GetEntityIndex(entity);
 
-#ifdef SM_DEBUG_LEVEL_2
     // Check if the entity has this component
     if (entityIndex >= pScene->entities.size() ||
         !pScene->entities[entityIndex].mask.test(internalId) ||
@@ -209,7 +203,6 @@ void* csECS_GetComponent(csSceneHandle scene, csEntityID entity,
     {
         return NULL;
     }
-#endif
 
     return pScene->componentPools[internalId]->get(entityIndex);
 }
@@ -417,14 +410,14 @@ csECS_CreateAllEntityIterator(csSceneHandle scene)
 csEntityID csECS_IteratorNext(csEntityIteratorHandle iterator)
 {
     if (!iterator)
-        return SM_ECS_INVALID_ENTITY;
+        return CS_ECS_INVALID_ENTITY;
 
     if (iterator->currentIndex < iterator->matchingEntities.size())
     {
         return iterator->matchingEntities[iterator->currentIndex++];
     }
 
-    return SM_ECS_INVALID_ENTITY;
+    return CS_ECS_INVALID_ENTITY;
 }
 
 void csECS_DestroyEntityIterator(csEntityIteratorHandle iterator)

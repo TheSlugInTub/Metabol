@@ -21,20 +21,6 @@ struct Variable
 {
     std::string identifier;
     Type type;
-    
-    union 
-    {
-        int8_t i8;
-        int16_t i16;
-        int32_t i32;
-        int64_t i64;
-        uint8_t u8;
-        uint16_t u16;
-        uint32_t u32;
-        uint64_t u64;
-        float f32;
-        double f64;
-    };
 };
 
 struct Structure
@@ -51,6 +37,7 @@ int main(int argc, char** argv)
     }
 
     std::vector<Structure> structures;
+    std::vector<Structure> components;
 
     for (int i = 0; i < argc - 1; i++)
     {
@@ -65,7 +52,116 @@ int main(int argc, char** argv)
 
         for (int j = 0; j < buffer.size(); j++)
         {
+            std::string compStr = buffer.substr(j, 14);
+
+            if (compStr == "//// Component")
+            {
+                Structure comp;
+
+                j += 14;
+                char ch = buffer[j];
+
+                while (ch != '{')
+                {
+                    j++;
+                    ch = buffer[j];
+                }
+
+                j++; // Skip '{'
+                ch = buffer[j];
+
+                while (ch != '}')
+                {
+                    std::string typeStr;
+                    std::string identifierStr;
+                
+                    while (ch == ' ')
+                    {
+                        j++;
+                        ch = buffer[j];
+                    }
+
+                    if (ch == '}')
+                    {
+                        continue;
+                    }
+
+                    while (ch != ' ')
+                    {
+                        typeStr.append(ch, 1);
+                        j++;
+                        ch = buffer[j];
+                    }
+
+                    j++; // Skip space
             
+                    while (ch != ';')
+                    {
+                        identifierStr.append(ch, 1);
+                        j++;
+                        ch = buffer[j];
+                    }
+                    
+                    Variable var = {.identifier = identifierStr};
+
+                    if (typeStr == "int")
+                    {
+                        var.type = Type_Int32;
+                    }
+                    else if (typeStr == "char")
+                    {
+                        var.type = Type_Int8;
+                    }
+                    else if (typeStr == "float")
+                    {
+                        var.type = Type_Float32;
+                    }
+                    else if (typeStr == "double")
+                    {
+                        var.type = Type_Float64;
+                    }
+
+                    comp.variables.push_back(var);
+                }
+
+                j++; // Skip '}'
+            
+                while (ch == ' ')
+                {
+                    j++;
+                    ch = buffer[j];
+                }
+
+                std::string structIdentifier = "";
+
+                while (ch != ';')
+                {
+                    structIdentifier.append(ch, 1);
+
+                    j++;
+                    ch = buffer[j];
+                }   
+
+                comp.identifier = structIdentifier;
+
+                components.push_back(comp);
+            }
+        
+            // j++;
+        }
+    }
+
+    std::cout << "Components: " << components.size() << "\n\n";
+
+    for (Structure& structure : components)
+    {
+        std::cout << "Name: " << structure.identifier << "\n\n";
+        
+        for (Variable& var : structure.variables)
+        {
+            std::cout << "Name: " << structure.identifier << '\n';
+            std::cout << var.identifier << '\n';
+            std::cout << var.type << "\n\n";
         }
     }
 
