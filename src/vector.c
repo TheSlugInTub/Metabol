@@ -1,9 +1,9 @@
-#include <salamander/vector.h>
+#include <caerus/vector.h>
 
 // Initialize a new vector with specified element size
-smVector* smVector_Create(size_t elemSize, size_t initial_capacity)
+csVector* csVector_Create(size_t elemSize, size_t initial_capacity)
 {
-    smVector* vector = (smVector*)malloc(sizeof(smVector));
+    csVector* vector = (csVector*)malloc(sizeof(csVector));
     if (vector == NULL)
     {
         fprintf(stderr, "Failed to allocate memory for vector.\n");
@@ -26,7 +26,7 @@ smVector* smVector_Create(size_t elemSize, size_t initial_capacity)
 }
 
 // Add an element to the vector (copies the element)
-int smVector_PushBack(smVector* vector, const void* element)
+int csVector_PushBack(csVector* vector, const void* element)
 {
     // Resize if needed
     if (vector->size >= vector->capacity)
@@ -55,7 +55,7 @@ int smVector_PushBack(smVector* vector, const void* element)
 }
 
 // Get a pointer to an element
-void* smVector_Get(smVector* vector, size_t index)
+void* csVector_Get(csVector* vector, size_t index)
 {
     if (index >= vector->size)
     {
@@ -66,7 +66,7 @@ void* smVector_Get(smVector* vector, size_t index)
 }
 
 // Remove an element by index (shifts subsequent elements)
-int smVector_Remove(smVector* vector, size_t index)
+int csVector_Remove(csVector* vector, size_t index)
 {
     if (index >= vector->size)
     {
@@ -96,13 +96,13 @@ int smVector_Remove(smVector* vector, size_t index)
 }
 
 // Free the memory used by the vector
-void smVector_Free(smVector* vector)
+void csVector_Free(csVector* vector)
 {
     free(vector->data);
     free(vector);
 }
 
-void smVector_Clear(smVector* vector)
+void csVector_Clear(csVector* vector)
 {
     vector->size = 0;
 }
