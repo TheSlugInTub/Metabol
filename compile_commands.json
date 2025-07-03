@@ -1,0 +1,169 @@
+﻿[
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"D:/repos/salamander/include/imgui/imgui_tables.cpp\" -std=c++20 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/include/imgui/imgui_tables.cpp"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"D:/repos/salamander/src/imgui_layer.cpp\" -std=c++20 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/imgui_layer.cpp"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/component_registers.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/component_registers.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"D:/repos/salamander/include/imgui/imgui_draw.cpp\" -std=c++20 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/include/imgui/imgui_draw.cpp"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"D:/repos/salamander/include/imgui/imgui_demo.cpp\" -std=c++20 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/include/imgui/imgui_demo.cpp"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"D:/repos/salamander/include/imgui/imgui_impl_glfw.cpp\" -std=c++20 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/include/imgui/imgui_impl_glfw.cpp"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/editor.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/editor.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"D:/repos/salamander/include/imgui/imgui_widgets.cpp\" -std=c++20 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/include/imgui/imgui_widgets.cpp"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/systems.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/systems.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/shader.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/shader.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/state.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/state.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/model.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/model.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/physics_3d.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/physics_3d.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"D:/repos/salamander/src/json_api.cpp\" -std=c++20 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/json_api.cpp"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/window.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/window.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"D:/repos/salamander/include/imgui/imgui.cpp\" -std=c++20 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/include/imgui/imgui.cpp"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/physics_2d.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/physics_2d.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/utils.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/utils.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"D:/repos/salamander/src/ecs_api.cpp\" -std=c++20 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/ecs_api.cpp"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/input.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/input.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/vector.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/vector.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/camera.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/camera.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/main.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/main.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/registry.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/registry.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/stb.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/stb.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c++ \"D:/repos/salamander/include/imgui/imgui_impl_opengl3.cpp\" -std=c++20 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/include/imgui/imgui_impl_opengl3.cpp"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/renderer.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/renderer.c"
+  }
+  ,
+  {
+    "directory": "D:/repos/salamander/bld/",
+    "command": "\"C:/Users/Slug/AppData/Roaming/ClangPowerTools/LLVM_Lite/Bin/clang++.exe\" -x c \"D:/repos/salamander/src/glad.c\" -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-D_MT\" \"-DWIN32\" \"-D_WINDOWS\" \"-DNDEBUG\" \"-DCMAKE_INTDIR=/\"RelWithDebInfo/\"\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"D:/Apps/Visual Studio/VC/include\" -isystem\"D:/Apps/Visual Studio/VC/atlmfc/include\" -isystem\"D:/Apps/Visual Studio/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/cppwinrt\" -I\"D:/repos/salamander/include\" -I\"D:/repos/salamander/include/bgfx\"",
+    "file": "D:/repos/salamander/src/glad.c"
+  }
+]
