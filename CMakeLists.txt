@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 # Set the project name
-project(Caerus)
+project(Metabol)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
@@ -38,22 +38,3 @@ add_executable(${PROJECT_NAME}
     ${SOURCES}
     ${INCLUDESOURCES}
 )
-
-if(WIN32)
-    target_link_libraries(${PROJECT_NAME} PRIVATE
-        ${CMAKE_SOURCE_DIR}/lib/glfw3.lib
-        ${CMAKE_SOURCE_DIR}/lib/OpenAL32.lib
-        ${CMAKE_SOURCE_DIR}/lib/box2d.lib
-        ${CMAKE_SOURCE_DIR}/lib/assimp-vc143-mt.lib
-        ${CMAKE_SOURCE_DIR}/lib/Jolt.lib
-        ${CMAKE_SOURCE_DIR}/lib/joltc.lib
-        ${CMAKE_SOURCE_DIR}/lib/freetype.lib
-        ${CMAKE_SOURCE_DIR}/lib/sndfile.lib
-        opengl32
-    )
-endif()
-
-if(UNIX AND NOT APPLE)
-    target_link_libraries(${PROJECT_NAME} PRIVATE
-    )
-endif()

@@ -1,3 +1,3 @@
-# Caerus
+# Metabol
 
-A game engine in C.
+A code generator for C, allowing templates and metaprogramming in C.
