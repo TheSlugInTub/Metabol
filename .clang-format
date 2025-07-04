@@ -24,7 +24,7 @@ IndentCaseLabels: 'true'
 IndentPPDirectives: AfterHash
 IndentWidth: '4'
 KeepEmptyLinesAtTheStartOfBlocks: 'true'
-Language: C++
+Language: Cpp
 PointerAlignment: Left
 SortIncludes: 'false'
 SpaceAfterCStyleCast: 'false'
