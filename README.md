@@ -4,7 +4,7 @@ A code generator for C, allowing templates and metaprogramming in C.
 
 # Usage
 
-metabol <input-file> <output-file>
+metabol [input-file] [output-file]
 
 # Tutorial
 
